@@ -12,8 +12,12 @@ h3{
   /*#0e6460*/
 }
 
-.bg-mlny-green{
+
+
+.btn-mlny-green{
   background-color: #0e6460;
+  color: #eee;
+  font-weight: bold;
 }
 
 
@@ -106,25 +110,28 @@ h2{
 }
 
 .location {
-  
-  padding: 20px;
+  padding: 40px;
 }
 
 
 .location iframe{
-  max-height : 200px;
+  height : 300px;
   width: 100%;
 }
 
 
-.footer{
+.footer {
   padding: 20px;
-  background-color: #ccc;
+  background-color: #0e6460;
+  color: #eee;
 }
 
 .footer li{
-  color : #000;
   list-style: none;
+}
+
+.footer img{
+  height: 30px;
 }
 
 .rates_table{
@@ -135,5 +142,9 @@ h2{
 @media (max-width: 600px) {
   .featured_container{
     width: 90%;
+  }
+
+  .location {
+    padding: 10px;
   }
 }
