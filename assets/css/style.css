@@ -134,6 +134,17 @@ h2{
   height: 30px;
 }
 
+
+.footer_networks a{
+  color: #eee;
+  text-decoration: none;
+}
+
+.footer_networks img{
+  height: 20px;
+  width: 20px;
+}
+
 .rates_table{
   padding: 20px;
 }
