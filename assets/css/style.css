@@ -1,0 +1,139 @@
+body{
+  font-family: Helvetica, sans-serif;
+  background-color: #eee;
+}
+
+h3{
+  font-size: large;
+}
+
+.bg-mlny{
+  background-color: #fcd925;
+  /*#0e6460*/
+}
+
+.bg-mlny-green{
+  background-color: #0e6460;
+}
+
+
+.container-fluid-mlny{
+  background-color: black;
+  height: 65vh;
+}
+
+.container-fluid-mlny-1{
+  background-color: black;
+  background: url("../img/bg-money.jpg") no-repeat center center;
+  background-size:cover ;
+  height: 65vh;
+}
+
+.container-fluid-mlny-2{
+  background-color: black;
+  background: url("../img/bg-package.jpg") no-repeat center center;
+  background-size:cover ;
+  height: 65vh;
+}
+
+.presentation-square{
+  background-color: rgba(255, 255, 255, 0.945);
+  min-height: 450px;
+  border-radius: 10px;
+}
+
+.presentation-square_menu{
+  height: 100px;
+  border-bottom: solid 1px #000;
+  
+  cursor: pointer;
+}
+
+.presentation-square_menu img{
+  max-width: 50px;
+  max-height: 50px;
+  object-fit: cover;
+}
+
+.presentation-square_menu-row{
+  padding-top: 20px;
+  text-align: center;
+  display: grid;
+  gap:1rem;
+  grid-auto-rows:80px;
+  grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+
+}
+
+.b-bottom{
+  border-bottom: 5px solid #000;
+  background: linear-gradient(rgba(255, 255, 255, 0.26),#fcd82577);
+}
+
+
+h1{
+  line-height: 100%;
+  font-weight: bolder;
+}
+.presentation-square_body{
+  padding: 0px 40px 40px 40px;
+}
+
+h2{
+  font-size:x-large ;
+}
+.img-logo{
+  max-width: 80px;
+}
+
+.rates{
+  padding: 20px;
+}
+
+.featured{
+  text-align: center;
+  padding: 20px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.featured_container{
+  position: relative;
+  width: 50%;
+}
+
+.location {
+  
+  padding: 20px;
+}
+
+
+.location iframe{
+  max-height : 200px;
+  width: 100%;
+}
+
+
+.footer{
+  padding: 20px;
+  background-color: #ccc;
+}
+
+.footer li{
+  color : #000;
+  list-style: none;
+}
+
+.rates_table{
+  padding: 20px;
+}
+
+
+@media (max-width: 600px) {
+  .featured_container{
+    width: 90%;
+  }
+}
